@@ -1,0 +1,76 @@
+body{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.header{
+    background-color: #60dfcd;
+    background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);display: block;
+    padding:0;
+    top:0;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+    height: 8%;
+    position: fixed;
+    box-shadow: 0px 10px 0px #000000;   
+    left:0;
+    right: 0;
+
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit;
+    background-image: inherit;
+    border-radius: inherit;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+}
+
+.header ul li{
+    display: inline;
+    margin-right: 1.5rem;
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: inherit;
+    float: left;
+    padding-left: 2rem;
+    
+}
+
+.header ul li a:hover{
+    background-color: #000000;
+    color: white;
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+
+.header ul li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    
+}
+
+
+
+.header ul li:last-child{
+    float: right;
+    margin-right: 0;
+    
+}
+.header ul li:nth-last-child(2){
+    float: right;
+    padding-right: 2rem;
+}
